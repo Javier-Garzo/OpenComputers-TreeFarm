@@ -1,6 +1,6 @@
 # Tree farm
 ![Tree Farmer banner](assets/banner.png)
-Program for create an autonomous robot that plant and cut down trees in area, powered by solar energy.
+Program for create an autonomous robot that plant and cut down trees in area, powered by solar energy. This is a OpenComputers program, so you need the mod in your Minecraft game.
 ## Downloading
 First of all you need a computer setup, in case you are a new player in this mod you can follow the [official documentation](https://ocdoc.cil.li/tutorial:oc1_basic_computer) or use this [video](https://www.youtube.com/watch?v=niNie0mpLFI). We need that computer with the OS intalled.
 
@@ -25,10 +25,10 @@ When you have the code in the aoutrun.lua you can edit the tree variables of the
 * minimumEnergyToWork (Default = 3000): The minimum energy that the robot need for start working, just used for avoid that the robot lose all the energy and shut down.
 * timerMultiplier (Default = 5): The robot wait some time when finish a iteration in the area  to wait that the trees grow. Some multiplier if you want that the robot spend more time or less waiting.
 
-Here some images that how the size affect to the farm (7x7, 4x7, 13x4): <br />
+Here some images that show how the size affect to the farm (7x7, 4x7, 13x4): <br />
 *IMPORTANT: X is the face direction of the robot.*
 
-![Minimum robot setup](assets/configurations.png)
+![Conbfigurations](assets/configurations.png)
 
 ## Robot fabrication
 
@@ -61,6 +61,6 @@ And now you only need enjoy the robot.
 
 <br>
 
-![Robot setup with extras](assets/Initialization.gif)
+![Robot setup with extras](assets/initialization.gif)
 
 
