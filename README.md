@@ -19,7 +19,7 @@ edit /autorun.lua
 And just paste (insert key) the code that you have inside this repository file [treeFarm.lua](/treeFarm.lua). 
 
 ## Configuration
-When you have the code in the aoutrun.lua you can edit the tree variables of the top:
+When you have the code in the autorun.lua you can edit the tree variables of the top:
 * sizeX (Default = 7): The size of tree farm in the direction that face the robot. The value must be x*3 +1 (4,7,10,13...).
 * sizeZ (Default = 7): The size of tree farm in the direction right hand of the robot.The value must be  z*3 +1 (4,7,10,13...).
 * minimumEnergyToWork (Default = 3000): The minimum energy that the robot need for start working, just used for avoid that the robot lose all the energy and shut down.
