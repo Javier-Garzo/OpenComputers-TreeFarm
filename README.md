@@ -55,7 +55,7 @@ Other possible extras:
 
 ## Final
 
-<img src="assets/RobotSetUp.png" alt="Robot initial inventory"  align="right" width="100" padding="10px" >Put the robot in a plain area, with no walls or similar, and add some saplings in the first section of his inventory(must be spruce or birch). If you want you can add him a axe but is not necessary.
+<img src="assets/robotSetUp.png" alt="Robot initial inventory"  align="right" width="100" padding="10px" >Put the robot in a plain area, with no walls or similar, and add some saplings in the first section of his inventory(must be spruce or birch). If you want you can add him a axe but is not necessary.
 
 And now you only need enjoy the robot.
 
