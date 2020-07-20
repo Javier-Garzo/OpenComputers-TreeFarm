@@ -1,14 +1,25 @@
 local computer = require("computer");--Only used for computer.energy();
+local term = require("term");--Only used for clear the console
 local robot = require("robot");
 
---Sapling position in the robot inventory
-robot.select(1);
 
 --Configuration of the tree farm
 local sizeX = 7;
 local sizeZ = 7;
-local minimunEnergyToWork = 3000;
+local minimumEnergyToWork = 3000;
 local timerMultiplier = 5;
+
+
+
+
+-- Clrear console
+if term.isAvailable() then 
+    term.clear();
+end
+
+--Sapling position in the robot inventory
+robot.select(1);
+
 
 --Plant function, return true if plant the sapling, false if not
 local function tryPlant()
@@ -107,7 +118,7 @@ local function farming()
             end
         else                    -- finish planting
             robot.turnAround();
-            while(computer.energy() < minimunEnergyToWork) do
+            while(computer.energy() < minimumEnergyToWork) do
                 print("AFK mode, need solar charging...");
                 os.sleep(60 * timerMultiplier);
             end
@@ -154,7 +165,7 @@ end
 
 print("Running treeFarmer program...");
 --Check have enough energy
-while(computer.energy() < minimunEnergyToWork) do
+while(computer.energy() < minimumEnergyToWork) do
     print("AFK mode, need solar charging...");
     os.sleep(60 * timerMultiplier);
 end
