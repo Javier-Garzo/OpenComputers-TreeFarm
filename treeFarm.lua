@@ -176,9 +176,7 @@ while(robot.count(1) == 0) do
 end
 
 plantSplings();
-print("Llega");
 while(true) do
-    print("Llega2");
     farming();
     print("Iteration end, waiting some time to the next...")
     os.sleep(40 * timerMultiplier);
